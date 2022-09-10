@@ -1,4 +1,4 @@
-
+import sys
 ### welcome_assignment_answers
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
@@ -30,4 +30,4 @@ def welcome_assignment_answers(question):
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
     debug_question = "Are encoding and encryption the same? - Yes/No"
-    print(welcome_assignment_answers(debug_question))
+    print(welcome_assignment_answers(sys.argv))
